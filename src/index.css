@@ -1,0 +1,25 @@
+.formStaff{
+  border: 2px solid rgb(119, 114, 114);
+  padding: 25px;
+  width: 400px;
+}
+.txMain{
+  /* color: rgb(33, 101, 248); */
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+
+}
+.input{
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  margin-bottom:20px ;
+}
+.btnAdd{
+  font-size: 18px;
+  color: white;
+  background-color: rgb(31, 106, 226);
+  padding: 10px 25px;
+}

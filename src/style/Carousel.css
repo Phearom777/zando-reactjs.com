@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.slide .carousel-inner .carousel-item{
+    height: 500px;
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 575.98px) { 
+    .carousel .carousel-inner .carousel-item{
+        height: 190px;
+    }
+}

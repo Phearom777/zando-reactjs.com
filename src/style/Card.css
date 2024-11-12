@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box-card h2{
+    margin-top: 40px;
+}
+.box-card .card .image{
+    overflow: hidden;
+}
+.box-card .card .image img{
+    transition: 0.5s;
+    height: 310px;
+}
+.box-card .card .image:hover img{
+    transform: scale(1.05);
+}
+.card .title span{
+    color: red;
+}
+.box-card .card{
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 10px;
+    height: 500px;
+}
+.box-card .card:hover{
+    border-radius: 30px;
+}
+.box-card .card .btn{
+    border: none;
+    background-color: rgb(26, 135, 245);
+    border-radius: 30px;
+}
+.box-card .card .btn:hover{
+    background-color: rgb(5, 99, 192);
+
+}
+.box-card .card .title .icon{
+    /* background-color: gold; */
+    margin-top: 0px;
+    color: gold;
+}
+.box-card .card .title span{
+    font-size: 14px;
+}
+.box-card .card .title p{
+    font-weight: bold;
+    font-size: 15px;
+}
+@media (max-width: 575.98px) { 
+    
+    .box-card{
+        margin-top: 20px;
+        
+    }
+}
